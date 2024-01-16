@@ -16,6 +16,15 @@ The project has been set up to use webpack for bundling assets and code. To get 
 npm install
 ```
 
+Create a .env file and fill it with the following
+```
+HTTPS=true
+PORT=8080
+HOST=<YOUR IP ADDRESS>
+```
+
+Refer to [this](https://www.theverge.com/23351435/ip-address-how-to-find-macos-windows-ios-android-iphone) to find your IP address
+
 During development, you can use the following command to run a `webpack server` for testing on your computer or a device on your local network:
 ```
 npm run start
