@@ -59,7 +59,7 @@ function App() {
                   <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
                   <Sparkles count={100} scale={10 * 2} size={1} speed={0.4} />
                   <Stats />
-                  <EffectComposer disableNormalPass multisampling={0}>
+                  <EffectComposer disableNormalPass multisampling={1}>
                     <Bloom intensity={1.5} radius={.5} mipmapBlur luminanceThreshold={.7} />
                     <N8AO color="red" aoRadius={2} intensity={1} />
                     <SSAO />
@@ -67,7 +67,7 @@ function App() {
                 </Canvas>
               </div>
             </div>
-            <img src={Iphone} style={{ maxWidth: "300px" }} />
+            <img src={Iphone} style={{ maxWidth: "300px", filter: 'filter: drop-shadow(20px 20px 10px green)' }} />
           </div>
         </div>
       }

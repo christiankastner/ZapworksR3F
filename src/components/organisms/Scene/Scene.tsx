@@ -12,7 +12,10 @@ type SceneProps = {
 export const Scene: FC<SceneProps> = (props) => {
   return (
     <>
-      <Text />
+      <group position={[0, 3, 0]}>
+
+        <Text />
+      </group>
       <Environment preset='dawn' />
     </>
   );
