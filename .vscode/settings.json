@@ -1,0 +1,38 @@
+{
+    "netlify.site_id": "christian-portfolio",
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "files.associations": {
+        "/.babelrc": "jsonc"
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/.babelrc"
+            ],
+            "url": "https://json.schemastore.org/babelrc"
+        }
+    ],
+ 
+    // Color code title bar so you know if you're in frontend or backend... or labs!
+    "workbench.colorCustomizations": {
+        "titleBar.activeForeground": "#000",
+        "titleBar.inactiveForeground": "#000000CC",
+        "titleBar.activeBackground": "#ff2d2d",
+        "titleBar.inactiveBackground": "#ff2d2dcc"
+    },
+    // All setting below for twin / emotion / tailwind setup
+    // Allows for twin suggestions without importing twin
+    // - devDependency babel-plugin-twin relies on this to be set to "false" for correct suggestion behavior
+    "tailwindcss.jsxPropImportChecking": false,
+    "editor.formatOnPaste": false, // required
+    "editor.formatOnType": false, // required
+    "editor.formatOnSave": true, // optional
+    "editor.formatOnSaveMode": "file", // required to format on save
+    "files.autoSave": "onFocusChange", // optional but recommended
+    "vs-code-prettier-eslint.prettierLast": false,
+    "prettier.prettierPath": "./node_modules/prettier"
+}

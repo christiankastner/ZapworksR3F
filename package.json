@@ -14,11 +14,13 @@
     "dependencies": {
         "@react-three/drei": "^9.23.6",
         "@react-three/fiber": "^8.6.0",
+        "@react-three/postprocessing": "^2.15.12",
         "@types/react-dom": "^18.0.6",
         "@types/three": "^0.142.0",
         "@zappar/zappar-react-three-fiber": "^2.1.0",
         "react": "^18.2.0",
         "react-app-rewired": "^2.2.1",
+        "react-device-detect": "^2.2.3",
         "react-dom": "^18.2.0",
         "react-scripts": "5.0.1",
         "three": "^0.142.0",
